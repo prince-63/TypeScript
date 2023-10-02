@@ -1,9 +1,3 @@
-<style>
-    * {
-        font-family: Calibri;
-    }
-<style>
-
 ## TypeScript
 
 #### Declaring Variables
@@ -187,3 +181,6 @@ In this example, we define a Person type with properties name, age, and email. W
 Then, we define a people object of type  `Record<PersonKeys, string>` This means that people has keys of type PersonKeys (i.e. 'name', 'age', and 'email'), and values of type string.
 
 Note that when we try to assign a string value to the age property, TypeScript throws an error because the age property is defined as a number in the Person type.
+
+#### ignore this
+<style>*{font-family: Calibri;}</style>
