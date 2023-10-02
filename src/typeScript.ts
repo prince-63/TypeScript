@@ -117,3 +117,29 @@
 //     status: true
 // };
 
+/**
+ * Key of operator
+ */
+// type User = {
+//     id: number;
+//     name: string;
+//     age: number;
+//     status: boolean;
+// };
+
+// type UserKeys = keyof User; // 'id' | 'name' | 'age' | 'status'
+
+// function getProperty<T, K extends keyof T>(obj: T, key: K) {
+//     return obj[key];
+// }
+
+// const user: User = {
+//     id: 1,
+//     name: "John",
+//     age: 30,
+//     status: true
+// };
+
+// const name = getProperty(user, 'name'); // string
+// const age = getProperty(user, 'age'); // number
+// const status = getProperty(user, 'status'); // boolean
