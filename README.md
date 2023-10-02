@@ -2,7 +2,7 @@
     * {
         font-family: Calibri;
     }
-</style>
+<style>
 
 ## TypeScript
 
